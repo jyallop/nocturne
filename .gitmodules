@@ -1,0 +1,3 @@
+[submodule "ultrafastgoertzel"]
+	path = ultrafastgoertzel
+	url = git@github.com:JosephChotard/ultrafastgoertzel.git
