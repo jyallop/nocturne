@@ -14,21 +14,21 @@ use ultrafastgoertzel::goertzel_batch;
 const NUM_TRIANGLES: f32 = 20.0;
 
 // FOR CHIMES
-// const RMS_THRESHOLD: f64 = 10.0;
-// const SONG: &str = "chime.wav";
-// const FREQS: usize = 1;
-// const RMS_WINDOW: usize = 1000;
-// const DECAY: f64 = 0.60;
+const RMS_THRESHOLD: f64 = 10.0;
+const SONG: &str = "chime.wav";
+const FREQS: usize = 1;
+const RMS_WINDOW: usize = 1000;
+const DECAY: f64 = 0.60;
 
 //const SONG: &str = "dotf.wav";
 
 // FOR CHOPIN
-const RMS_THRESHOLD: f64 = 50.0;
-const SONG: &str = "chopin.wav";
+//const RMS_THRESHOLD: f64 = 50.0;
+//const SONG: &str = "chopin.wav";
 //const SONG: &str = "fudd.wav";
-const FREQS: usize = 4 * 12;
-const RMS_WINDOW: usize = 800;
-const DECAY: f64 = 0.30;
+//const FREQS: usize = 4 * 12;
+//const RMS_WINDOW: usize = 800;
+//const DECAY: f64 = 0.30;
 
 const START_FREQ: usize = 20;
 const DELAY: f32 = 1.0;
