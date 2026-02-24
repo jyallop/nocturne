@@ -1,0 +1,12 @@
+[package]
+name = "algo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.18.0", default-features = false, features = ["zstd_c", "2d", "ui", "audio", "wav", "debug", "tonemapping_luts"] }
+bevy_kira_audio = { version = "0.25", features = ["wav"]}
+hound = "3.5.1"
+rand = "0.10.0"
+faer = "0.24.0"
+ultrafastgoertzel = { path = "ultrafastgoertzel/crates/ultrafastgoertzel" }
